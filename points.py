@@ -12,9 +12,9 @@ from hexlet import points
 def get_quadrant(point):
     if points.get_x(point) > 0 and points.get_y(point) > 0:
         return 1
-    elif points.get_x(point) > 0 and points.get_y(point) < 0:
+    elif points.get_x(point) > 0 > points.get_y(point):
         return 4
-    elif points.get_x(point) < 0 and points.get_y(point) > 0:
+    elif points.get_x(point) < 0 < points.get_y(point):
         return 2
     elif points.get_x(point) < 0 and points.get_y(point) < 0:
         return 3
